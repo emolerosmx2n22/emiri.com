@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        h1 {
+          color: blue;
+        }
+        p {
+          font-size: 18px;
+        }
+      </style>
+      
+    <title>Emiri - Mi sitio web</title>
+  </head>
+  <body>
+    <h1>Bienvenido a mi sitio web</h1>
+    <p>¡Gracias por visitar mi sitio web!</p>
+  </body>
+  <p id="mensaje">¡Gracias por visitar mi sitio web!</p>
+<button onclick="cambiarMensaje()">Cambiar mensaje</button>
+<script>
+  function cambiarMensaje() {
+    document.getElementById("mensaje").innerHTML = "¡Gracias por visitar mi sitio web otra vez!";
+  }
+</script>
+</html>
+
